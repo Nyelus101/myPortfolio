@@ -1,0 +1,49 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --background: #263849;
+  --foreground:  #35bcbf;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  background-color: #0a192f;
+}
+
+/* STYLES FOR ARCHIVE */
+#archive-card:hover {
+  transform: translateY(-7px);
+}
+
+#resume-btn {
+  transition: 0.5s;
+}
+
+#resume-btn:hover {
+  transform: scale(1.05);
+}
+
+#archive-card {
+  box-shadow: 1px 1px 5px #48b8a5;
+  transition: ease-in-out 0.5s;
+}
+
+/* Home component h3 style */
+.home-h3 {
+  word-spacing: 5px;
+}

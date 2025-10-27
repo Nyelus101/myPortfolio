@@ -1,0 +1,13 @@
+/* PROJECTS FRAMER MOTION STYLES */
+
+.framer-section {
+    overflow: hidden;
+}
+
+.framer-section section {
+  display: block;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+/* PROJECTS FRAMER MOTION STYLES */
