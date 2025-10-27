@@ -49,7 +49,7 @@ const Home = () => {
         </motion.h3>
         <motion.h1
           variants={item}
-          className="text-4xl md:text-7xl font-bold text-lightGrey text-center"
+          className="text-3xl md:text-7xl font-bold text-lightGrey text-center"
         >
           Chinedu Muonyelu.
         </motion.h1>
