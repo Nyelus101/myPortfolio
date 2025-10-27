@@ -38,7 +38,7 @@ const Footer = () => {
 
 			<div className="w-full text-center mt-8 max-w-xs mx-auto">
 				<a
-					href="#"
+					href="https://github.com/Nyelus101/myPortfolio"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-sm text-lightGrey hover:text-lightGreen"
