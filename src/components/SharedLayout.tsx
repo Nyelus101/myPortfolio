@@ -41,12 +41,12 @@ const SharedLayout = () => {
     <div className="flex flex-col gap-8 min-h-screen relative w-full font-sans">
       <nav
         id="home"
-        className="flex items-center justify-center w-full min-h-[10vh] md:py-4 px-8 md:px-12"
+        className="flex items-center justify-center w-full min-h-[10vh] md:py-4 px-2 md:px-12"
       >
         <Navbar sidebar={sidebar} showSidebar={showSidebar} />
       </nav>
 
-      <div className="flex items-center justify-center px-8 md:px-12 w-full">
+      <div className="flex items-center justify-center px-2 md:px-12 w-full">
         <div
           className={
             sidebar

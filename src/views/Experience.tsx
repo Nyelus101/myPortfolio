@@ -81,7 +81,7 @@ const Experience = () => {
 							rel="opener"
 							className="flex items-center justify-center w-full p-4"
 						>
-							<div className="flex flex-col md:flex-row items-start justify-start md:justify-around gap-3 text-left w-full max-w-full md:max-w-[80%] mx-0 md:mx-auto">
+							<div className="flex flex-col md:flex-row items-start justify-start md:justify-around gap-3 text-justify w-full max-w-full md:max-w-[80%] mx-0 md:mx-auto">
 								<div className="flex-[0.3]">
 									<span className="text-base font-medium text-deepGrey">
 										{item.duration}

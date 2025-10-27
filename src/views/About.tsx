@@ -39,7 +39,7 @@ const About = () => {
       </h1>
 
       <div className="flex lg:flex-row flex-col items-center gap-4 md:gap-8 justify-between">
-        <article className="text-left text-deepGrey text-lg mt-3 font-medium flex-1">
+        <article className="text-justify text-deepGrey text-lg mt-3 font-medium flex-1">
           <p>
             Hello once more&#128075;, I am Chinedu, and I love creating things that work and look great on the web.
           </p>
@@ -88,7 +88,7 @@ const About = () => {
             <p className="my-2">
               Technologies I&apos;m proficient with include:
             </p>
-            <div className="flex flex-row flex-wrap gap-2 items-start justify-between w-full max-w-sm text-base mx-auto md:mx-0">
+            <div className="flex flex-row flex-wrap gap-2 items-start justify-between w-full max-w-sm text-base mx-0 md:mx-0">
               <ol className="list-none">
                 {skills.slice(0, 3).map((skill) => (
                   <li key={skill}>{skill}</li>

@@ -167,7 +167,7 @@ const SideBar: React.FC<SidebarProps> = ({ sidebar, showSidebar }) => {
               onClick={
                 link.function ? handleChangeExperienceTab : toggleSidebar
               }
-              className="text-gray-700 text-lg font-medium hover:text-green-600 transition"
+              className="text-gray-700 text-lg text-left font-medium hover:text-green-600 transition"
             >
               {link.name}
             </a>
