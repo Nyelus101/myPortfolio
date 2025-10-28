@@ -67,7 +67,7 @@ const Projects = () => {
 							</Typography>
 
 							<Typography variant="body1" color="text.secondary">
-								<p className="text-lightGreen text-center">
+								<p className="text-lightGreen text-justify ">
 									{item.description}
 								</p>
 

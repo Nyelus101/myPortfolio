@@ -90,7 +90,7 @@ export const data = {
     },
     {
       name: "Porfolio: My E-commerce Page",
-      description: "My E-commerce Page",
+      description: "My E-commerce Page - Portfolio Project - UI Designed by Frontend Mentor",
       imgURL: `${ecommerce2}`,
       repoURL: "",
       hostedURL: "https://nedu-e-commerce-page.vercel.app/",

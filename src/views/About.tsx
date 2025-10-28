@@ -45,17 +45,7 @@ const About = () => {
           </p>
 
           <p className="my-2">
-            In 2022, I became really interested in web development, so I decided to start learning through
-            {" "}
-            <a
-              className="underline-style"
-              href="https://www.freecodecamp.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              FreeCodeCamp
-            </a>
-            .{" "}
+            In 2022, I became really interested in web development, so I decided to start learning online through FreeCodeCamp and Coursera
           </p>
 
           <p className="my-2">
