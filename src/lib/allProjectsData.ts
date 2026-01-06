@@ -9,6 +9,7 @@ import space from "/images/space.png";
 import fbnPrep from "/images/fbnPrep.png";
 import ecommerce2 from "/images/ecommerce2.png";
 import dataanalytics from "/images/dataanalytics.png";
+import rag from "/images/rag.png";
 
 export const data = {
   experience: [
@@ -44,6 +45,14 @@ export const data = {
   ],
 
   landingPageProjects: [
+    {
+      name: "Full-Stack RAG (Retrieval-Augmented Generation) Application",
+      description: "A knowledge base application that leverages GROQ and Hugging FAce models to provide accurate and context-aware responses to user queries.",
+      imgURL: `${rag}`,
+      hostedUrl: "https://vercel.com/muonyelu-chinedu-us-projects/my-rag-frontend/DMujRUdywed1LExCUQAyf6hti9s7",
+      featured: true,
+      techUsed: ["Next.js", "Typescript", "TailwindCSS", "Hugging Face", "GROQ", "Python - FastAPI"],
+    },
     {
       name: "MantaHq",
       description: "A low code platform for creating and managing APIs.",
