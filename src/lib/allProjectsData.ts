@@ -1,6 +1,6 @@
 import divinecare from "/images/divinecare.png";
 import mantaHq from "/images/mantaHq.png";
-import uiLand from "/images/uiLand.png";
+import uiland2 from "/images/uiland2.png";
 import finance3 from "/images/finance3.png";
 import headless from "/images/headless.png";
 import invoice from "/images/invoice.png";
@@ -49,7 +49,8 @@ export const data = {
       name: "Full-Stack RAG (Retrieval-Augmented Generation) Application",
       description: "A knowledge base application that leverages GROQ and Hugging FAce models to provide accurate and context-aware responses to user queries.",
       imgURL: `${rag}`,
-      hostedUrl: "https://vercel.com/muonyelu-chinedu-us-projects/my-rag-frontend/DMujRUdywed1LExCUQAyf6hti9s7",
+      hostedURL: "https://www.linkedin.com/posts/chinedu-muonyelu-7018b7216_rag-aiengineering-fullstackdevelopment-activity-7413919639564595200-DZT2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaYLjEBM34DuRiL5GQyDwPNoLj1-yFo-d4",
+      // hostedURL: "https://my-rag-frontend-cvd73oe8p-muonyelu-chinedu-us-projects.vercel.app/",
       featured: true,
       techUsed: ["Next.js", "Typescript", "TailwindCSS", "Hugging Face", "GROQ", "Python - FastAPI"],
     },
@@ -57,14 +58,15 @@ export const data = {
       name: "MantaHq",
       description: "A low code platform for creating and managing APIs.",
       imgURL: `${mantaHq}`,
-      hostedUrl: "https://www.mantahq.com/",
+      hostedURL: "https://mantahq.com/",
       featured: true,
       techUsed: ["React", "Typescript", "SCSS", "Zod", "Tanstack Query"],
+
     },
     {
       name: "UiLand Design",
       description: "A landing page for a brand that assists startups in achieving their aims",
-      imgURL: `${uiLand}`,
+      imgURL: `${uiland2}`,
       hostedURL: "https://uiland.design/",
       featured: true,
       techUsed: ["Next.js", "Typescript", "TailwindCSS", "Tanstack Query"],
